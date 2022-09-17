@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--menu icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--search bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Template Main CSS File -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Template BATOOL CSS File -->
+    <link href="css/batool.css" rel="stylesheet">
+
+    <script>
+
+        function validateForm() {
+            var x = document.forms["feedbackform"]["email"].value;
+            if (x == "") {
+                alert("email must be filled out");
+                return false;
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+    <div class="menu">
+
+        <a href="index.html"><span class="material-icons">home</span> home</a>
+        <a href="ancient\ancientegypt.html"><span class="material-icons">spa</span>Ancient Egypt</a>
+        <a href="musuems\layOut1.html"><span class="material-icons">account_balance</span>Museums</a>
+        <a href="palaces\my shit.html"><span class="material-icons">festival</span>Palaces</a>
+        <a href="churches\1st layout.html"><span class="material-icons">add</span>Churches</a>
+        <a href="mosques\index.html"><span class="material-icons">nightlight_round</span>Musques</a>
+        <a href="signupform.html"><span class="material-icons">account_circle </span>Sign up</a>
+        <a href="#"><span class="material-icons">account_circle</span>Sign in</a>
+        <div class="search-container">
+            <form action="/action_page.php">
+
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <h1 class=" P1" style="color: darkblue">  MOST POPULAR NOW </h1>
+    <iframe class="homevideo" src="https://www.youtube.com/embed/rpSHrM8sCrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style=" background-color : lightgray">
+        <h2>
+            Civilization
+        </h2>
+        <p>
+            A civilization (or civilisation) is a complex society that is characterized by urban development, social stratification, a form of government, and symbolic systems of communication (such as writing).
+
+            Civilizations are intimately associated with and often further defined by other socio-politico-economic characteristics, such as centralization, the domestication of both humans and other organisms, specialization of labour, culturally-ingrained ideologies of progress and supremacism, monumental architecture, taxation, societal dependence upon farming and expansionism.
+
+            Historically, "a civilization" has often been understood as a larger and "more advanced" culture, in implied contrast to smaller, supposedly primitive cultures.In this broad sense, a civilization contrasts with non-centralized tribal societies, including the cultures of nomadic pastoralists, Neolithic societies or hunter-gatherers; however, sometimes it also contrasts with the cultures found within civilizations themselves. Civilizations are organized densely-populated settlements divided into hierarchical social classes with a ruling elite and subordinate urban and rural populations, which engage in intensive agriculture, mining, small-scale manufacture and trade. Civilization concentrates power, extending human control over the rest of nature, including over other human beings.[11]
+
+            Civilization, as its etymology (see below) suggests, is a concept originally associated with towns and cities. The earliest emergence of civilizations is generally connected with the final stages of the Neolithic Revolution, culminating in the relatively rapid process of urban revolution and state-formation, a political development associated with the appearance of a governing elite.
+
+
+        </p>
+    </div>
+    <h2>About us </h2>
+    <table id="tableofplaces">
+        <tr>
+            <th>name</th>
+            <th> id </th>
+        </tr>
+
+        <tr>
+            <td>  بتول شريف محمد محمد</td>
+            <td> 202000195</td>
+        </tr>
+        <tr>
+            <td>هنا عمر حسن ابراهيم</td>
+            <td> 202001038</td>
+        </tr>
+
+        <tr>
+            <td> زياد مظهر محمود عبد الحليم </td>
+            <td> 202000362</td>
+        </tr>
+
+        <tr>
+            <td> مريم نادى نجيب نصيب </td>
+            <td> 202000886</td>
+        </tr>
+        <tr>
+            <td> امنية صفوت عبد الناصر شحاته </td>
+            <td> 202000153</td>
+        </tr>
+
+    </table>
+    <br><br>
+    <footer>
+        <br>
+        <h2>
+            <span class="material-icons">
+                forum
+            </span>feedback
+        </h2>
+        <div class="form">
+            <form name="feedbackform" action="#" onsubmit="return validateForm()" method="post">
+
+                <label for="email">email</label>
+                <input type="text" class="email" name="email" placeholder="Your email">
+
+                <label for="feedback">feedback</label>
+                <textarea id="feedback" name="feedback" placeholder="Write your feedback" style="height:200px"></textarea>
+
+                <input class="submitform" type="submit" value="Submit">
+            </form>
+        </div>
+
+    </footer>
+</body>
+</html>

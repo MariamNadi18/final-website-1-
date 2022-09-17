@@ -1,0 +1,38 @@
+body {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.back{
+    background-color: lightblue;
+}
+
+.head {
+    background-color: #2B3856;
+    text-align: center;
+    color :white ;
+}
+
+.img{
+    width:400px;  height:400px;
+}
+.img2{
+    width:370px;  height:400px; 
+}
+
+
+
+.box
+{
+  background-color: powderblue;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+    background-color: #2B3856;
+
+}
+
+
+

@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    height: 5000px;
+    font-family: lato, sans-serif;
+}
+.container{
+    width: 1100px;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+}
+/*start navbar*/
+nav{
+    height: 0%;
+    position: relative;
+    z-index: 2;
+}
+nav .logo{
+    flex: 30%;
+}
+nav .logo img{
+    width: 100px;
+    height: 50px;
+    padding-top: 10px;
+}
+nav .list{
+    flex: 70%;
+    margin-left: 350px;
+}  
+nav .list ul {
+    list-style: none;
+    text-align: right;
+}
+nav .list ul li{
+    display: inline-block;
+    margin-right: 18px;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 20px 0;
+    font-weight: 700;
+    cursor: pointer;
+    position:  relative;
+}
+nav .list ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+nav .list ul li a.active,
+nav .list ul li a:hover {
+    color:peru;
+}
+/* nav .list ul li::after{
+    content: " ";
+    position: absolute;
+    top: 19px;
+    left: 1px;
+    height: 3px;
+    width: 0px;
+    background-color:cornflowerblue;
+    transition:  .3s;
+}
+nav .list ul li:hover:after{
+    width: 55px;
+} */
+/*start header*/
+.header{
+    background-image:url("../../images/mosques/back mosque.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.header .info{
+    text-align: center;
+    color:#fff;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    margin-left: -337px;
+}
+.header .info h2{
+    font-size: 60px;
+    margin: 0;
+
+
+}
+.header .info p{
+    font-size: 20px;
+    margin: 5px;
+}
+.header .info input{
+    border: none;
+    padding: 13px;
+    width: 80%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 60px;
+
+}
+.header .info button{
+    border: none;
+    padding: 13px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    background-color:peru;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+.header .info button:hover{
+    background-color: rgba(0,0,0,.5);
+}
+/*end header*/
+
+/* start names */
+.des{
+    padding: 40px 0;
+    background-color:lightblue;
+}
+.des .heading{
+    text-align: center;
+}
+.des .heading h2{
+    font-size: 35px;
+    margin: 0;
+}
+.des .heading p{
+    color: #777;
+    margin: 5px;
+}
+.des .con{
+    margin-top: 50px;
+}
+.des .names:not(:last-of-type){
+    margin-right: 2%;
+}
+.des .names{
+    flex: 23.5%;
+    max-width: 23.5%;
+    background-color:aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .3s;
+    cursor: pointer;
+}
+.des .names:hover{
+    background-color: silver;
+}
+.des .names img{
+    width: 100%;
+    transition: .3s;
+    cursor: pointer;
+    height: 200px;
+}
+.des .names .info{
+    padding: 10px 10px 10px 20px;
+}
+.des .names .info h4{
+    font-size: 20px;
+    margin: 0;
+}
+.des .names .info p{
+    font-size: 15px;
+    color: dimgray;
+}
+
+/* end names */
+
+.main-btn{
+    border: none;
+    padding: 13px;
+    border-radius: 21px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    background-color:peru;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.main-btn:hover{
+    background-color:rgba(0,0,0,.5) ;
+}
+
+
+

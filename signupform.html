@@ -1,0 +1,77 @@
+<!dochtml>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,intial-scale=1">
+    <meta charset="utf-8">
+
+    <!--menu icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--search bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/hana.css">
+    <title>
+        forms
+    </title>
+
+    <script>
+        function validateForm() {
+            var x = document.forms["feedbackform"]["email"].value;
+            if (x == "") {
+                alert("email must be filled out");
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body align="center">
+    <div class="menu">
+
+        <a href="index.html"><span class="material-icons">home</span> home</a>
+        <a href="ancient\ancientegypt.html"><span class="material-icons">spa</span>Ancient Egypt</a>
+        <a href="musuems\layOut1.html"><span class="material-icons">account_balance</span>Museums</a>
+        <a href="palaces\my shit.html"><span class="material-icons">festival</span>Palaces</a>
+        <a href="churches\1st layout.html"><span class="material-icons">add</span>Churches</a>
+        <a href="mosques\index.html"><span class="material-icons">nightlight_round</span>Musques</a>
+        <a href="signupform.html"><span class="material-icons">account_circle </span>Sign up</a>
+        <a href="signin.html"><span class="material-icons">account_circle</span>Sign in</a>
+        <div class="search-container">
+            <form action="/action_page.php">
+
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <h1>
+        sign up
+        </h2>
+        <span class="material-icons">
+            account_box
+        </span>
+        <form action=# method="post">
+
+            <label for="username">username:</label><br />
+            <input type="text" name="username"><br />
+
+            <label for="email">email: </label><br />
+            <input type="email" name="email"><br />
+
+            <label for="phonenumber"> phone number:</label><br />
+            <input type="" name="phone number"><br />
+
+            <label for="gender">gender:</label><br />
+            <input type="radio" name="gender"
+                   value="1" />male<br />
+            <input type="radio" name="gender"
+                   value="2" />female<br />
+            <label for="password">password: </label><br />
+            <input type="password" name="password"><br />
+
+            <input type="submit" name"submit">
+
+        </form>
+       
+</body>
+</html>

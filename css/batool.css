@@ -1,0 +1,107 @@
+﻿body {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+    img:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+
+.batool {
+    background-color: #e2e2e2;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.button {
+    font-size: 20px;
+    padding: 20px 50px;
+    margin: 20px 5px;
+    background-color: #2B3856;
+    width: 100%;
+    color: #ffffff;
+}
+
+.picDiv {
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.videoDiv {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top:20px;
+    margin:20px;
+}
+
+
+
+#gallerybox {
+    padding-right: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+/*font of pictures*/
+.p1 {
+    font-family: Cursive;
+    color: #1e43aa;
+}
+
+
+
+.iframemap  {
+    display: block;
+    border-style: none;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.img {
+    float: right;
+    margin: 0px 0px 15px 20px;
+    
+    border-radius: 8px;
+}
+.homevideo {
+    display: block;
+    border-style: none;
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+#table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+#table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+#table th {
+    background-color: #008cba;
+    color: white;
+}
+
+
+.tableB {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+    padding: 100px;
+    text-align: center;
+}
+#tableofplaces {
+    margin-right: auto;
+    margin-left: auto;
+}

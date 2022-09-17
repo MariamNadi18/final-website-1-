@@ -1,0 +1,118 @@
+img {
+border: 2px solid #38789B;
+border-radius: 12px;
+}
+td.shadow{
+text-shadow: 2px 2px 4px #38789B;
+
+}
+
+body {
+    
+    padding-right: 50px;
+    padding-left: 50px;
+	background-color:#DADED4;
+	  
+}
+
+
+a.ziad:link, a.ziad:visited {
+  background-color:   #0068A6;
+  color: #DADED4;
+  padding: 1em 7.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+
+a.ziad:hover, a.ziad:active
+{
+  background-color:  #38789B;
+}
+
+img.mazhar{
+    width: 32.8%;
+    margin-left: auto;
+    margin-right:auto;
+    display: inline ;
+	border-radius: 8px;
+   
+
+}
+img.mazhar1{
+    width: 32.4%;
+    margin-left: auto;
+    margin-right:0;
+    display: inline ;
+	border-radius: 8px;
+   
+
+}
+
+
+
+
+
+.tab div {
+  display: none;
+  border-radius: 8px;
+}
+
+.tab div:target {
+  display: block;
+  border-radius: 8px;
+}
+ 
+
+a.ziad1:link, a.ziad1:visited {
+  background-color: #0068A6;
+  color: #DADED4;
+  padding: 20px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+}
+a.ziad1:hover, a.ziad1:active
+{
+  background-color: #38789B	;
+  border-radius: 8px;
+}
+
+p.clearfix {
+  overflow: auto;
+  border-radius: 8px;
+} 
+p.clearfix  {
+  border: 3px solid #EEFBFB;
+  padding: 13px;
+  border-radius: 8px;
+}
+.center {
+    margin-left: auto;
+    margin-right:auto;
+    display: block ;
+	border-radius: 8px;
+   
+}
+
+h1 , h3 {
+  text-shadow: 2px 2px 4px #38789B;
+  padding: 13px;
+  border-radius: 8px;
+}
+table, th, td .table1{
+  border: 1px solid black;
+  border-radius: 8px;
+}
+table.table2{
+	 border: 0;
+	 border-radius: 8px;
+	
+}
+
+
+
+
